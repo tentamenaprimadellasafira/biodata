@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata - Daftar Riwayat Hidup</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <header class="text-center mb-5">
+            <h1 class="display-4">Daftar Riwayat Hidup</h1>
+        </header>
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img src="img/foto.jpg" alt="Foto Profil" class="img-fluid rounded-circle mb-4 profile-photo">
+            </div>
+            <div class="col-md-8">
+                <h2>Nama: Tentamena Prima Della Safira</h2>
+                <p><strong>Email:</strong> tentamena7@gmail,com</p>
+                <p><strong>Tempat, Tanggal Lahir:</strong> Purbalingga, 30 Juli 2004</p>
+                <p><strong>Alamat:</strong> Kedungjati rt 01 rw 03, kecamatan Bukateja Purbalingga</p>
+                <p><strong>Telepon:</strong> 087743618856</p>
+            </div>
+        </div>
+
+        <hr class="my-4">
+
+        <div class="row">
+            <div class="col-md-6">
+                <h3>Riwayat Pendidikan</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>IPA</strong>, SMA N 1 BUKATEJA - 2018-2021</li>
+                    <li class="list-group-item"><strong>SMP Negeri 01 BUKATEJA</strong> - 2015-2018</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Pengalaman Kerja</h3>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Marketing</strong>, PT. Karya Dari Desa - 2023 - Sekarang</li>
+                    <li class="list-group-item"><strong>Admin</strong>, KaryaKita - 2021 - 2023</li>
+                    <li class="list-group-item"><strong>Guru les privat</strong>, Les private - 2019 - 2021</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <h3>Keahlian</h3>
+                <ul class="list-group">
+                    <li class="list-group-item">Public speaking</li>
+                    <li class="list-group-item">Sosial media management</li>
+                    <li class="list-group-item">brand management</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="btn btn-primary" onclick="printCV()">Cetak CV</button>
+        </div>
+    </div>
+
+    <footer class="text-center mt-5 py-3 bg-dark text-white">
+        <p>&copy; 2024 Tentamena Prima Della S</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        function printCV() {
+            window.print();
+        }
+    </script>
+</body>
+</html>
